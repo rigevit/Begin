@@ -1,4 +1,4 @@
-
+//commint by veles
 public class WorkWithArray {
 
     public static void main(String[] args) {
