@@ -5,7 +5,6 @@ public class WorkWithArray {
 
         int array[] = new int[3];
         array[0] = 1000;
-
         growArray(array);
         showArray(array);
         reverceWithXOR(array);
