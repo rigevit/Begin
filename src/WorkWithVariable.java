@@ -3,6 +3,19 @@
  */
 public class WorkWithVariable {
     public static void main (String[] args) {
+        //цілі числа byte, short, int, long
+        byte d;
+        short e;
+        int f;
+        long g;
+        //числа з плаваючою точкою float, double
+        float h;
+        double i;
+        //Символи char
+        //char hello world;
+        //Логічні значення boolean
+        boolean j;
+
         int a, b;
         double c;
         a = 100;
