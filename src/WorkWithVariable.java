@@ -15,6 +15,7 @@ public class WorkWithVariable {
         //char hello world;
         //Логічні значення boolean
         boolean j;
+        boolean k;
 
         int a, b;
         double c;
