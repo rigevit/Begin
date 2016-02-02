@@ -30,6 +30,25 @@ public class WorkWithVariable {
         boolean j;
         boolean k;
 
+        k = true;
+        if (k) System.out.println("Код виконується");
+        k = false;
+        if (k) System.out.println("Цей код не виконується");
+        System.out.println("Порівняння 10>9" + (10>9));
+
+        //Приведення типів
+        int int1 = 257;
+        byte byte1;
+        double doub1 = 342.342;
+        byte1 = (byte) int1;
+        System.out.println("Приведення int -> byte: " + int1 + " -> " + byte1);
+        int1 = (int) doub1;
+        System.out.println("Приведення double -> int: " + doub1 + " -> " + int1);
+        byte1 = (byte) doub1;
+        System.out.println("Приведення double -> byte: " + doub1 + " -> " + byte1);
+        byte byte2 = (byte)(byte1*2);
+        System.out.println("Явне приведення типів у виразах, byte2 = " + byte2);
+
         //Підрахунок відстані, пройдених променями сонця за певну кількість днів
         long distance;
         long seconds;
