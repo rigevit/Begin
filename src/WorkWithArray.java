@@ -21,6 +21,16 @@ public class WorkWithArray {
         week [6] = "Sunday";
 
         System.out.println("Days off are " + week[5] + " and "+ week[6]);
+
+        //Calculation of the simple avarage
+        double simavar[] = {45.26, 8246.494365, 46543.564, 254354.545};
+        double result = 0;
+        int i;
+        for (i=0; i<4; i++)
+        result = result + simavar[i];
+        System.out.println("The simple avarage is " + result/4);
+
+
     }
 
     public static void growArray (int[] array) {
