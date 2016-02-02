@@ -10,6 +10,17 @@ public class WorkWithArray {
         reverceWithXOR(array);
         showArray(array);
 
+        String week[];
+        week = new String[7];
+        week [0] = "Monday";
+        week [1] = "Tuesday";
+        week [2] = "Wednesday";
+        week [3] = "Thursday";
+        week [4] = "Friday";
+        week [5] = "Saturday";
+        week [6] = "Sunday";
+
+        System.out.println("Days off are " + week[5] + " and "+ week[6]);
     }
 
     public static void growArray (int[] array) {
@@ -33,6 +44,5 @@ public class WorkWithArray {
             array[i] ^= array[length - i - 1];
         }
     }
-
 }
 
