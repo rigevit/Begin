@@ -3,8 +3,6 @@
  */
 public class MethodCall {
     public static void main (String args[]) {
-        //       System.out.println(min(1, 2));
-
         int a = 10;
         int b = 12;
         int y = min(a, b);
