@@ -9,6 +9,10 @@ public class WorkWithArray {
         showArray(array);
         reverceWithXOR(array);
         showArray(array);
+        //swap(5, 6);
+        Sw swap = new Sw ();
+        //swap(6, 5);
+        System.out.println();
 
         String week[];
         week = new String[7];
@@ -53,6 +57,17 @@ public class WorkWithArray {
             array[length - i - 1] ^= array[i];
             array[i] ^= array[length - i - 1];
         }
+    }
+
+    public static void swap(int a, int b) {
+        int c = a;
+        a = b;
+        b = c;
+    }
+
+    public static class Sw {
+        //int m;
+        //int n;
     }
 }
 
